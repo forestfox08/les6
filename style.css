@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:dsfont;
+    src: url("./fonts/Nintendo-DS-BIOS.ttf");
+}
+
+h1{
+    font-size: xx-large;
+    font-family:dsfont;
+    font-style: italic;
+}
+
+p{
+    font-family:dsfont;
+    font-size: larger;
+}
+
+.nav{
+    background-color: rgb(39,112,184);
+    overflow: hidden;
+    font-family:dsfont;
+}
+
+.nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+      }
+
+.nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+.nav a.Home {
+        background-color: rgb(22, 177, 81);
+        color: white;
+      }
+
+.main{
+    width:60vw;
+    margin-left:auto;
+    margin-right:auto;
+}
